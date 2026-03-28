@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+/* Subtle grid for “clinical dashboard” feel */
+.bg-grid {
+  background-image: linear-gradient(
+      rgba(15, 118, 110, 0.07) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(15, 118, 110, 0.07) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
